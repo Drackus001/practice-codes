@@ -1,0 +1,36 @@
+<div class="container">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+  >
+    <a
+      href="/"
+      class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+    >
+      BRAND
+    </a>
+
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li routerLinkActive="active">
+        <a routerLink="./home" class="nav-link px-2 link-secondary">Home</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="./about" class="nav-link px-2 link-dark">About</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="./contact" class="nav-link px-2 link-dark">contact</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="./services" class="nav-link px-2 link-dark">services</a>
+      </li>
+    </ul>
+
+    <div class="col-md-3 text-end">
+      <a
+        routerLink="../login"
+        (click)="onLogout()"
+        class="btn btn-outline-primary me-2"
+        >Logout</a
+      >
+    </div>
+  </header>
+</div>
