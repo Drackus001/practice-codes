@@ -26,7 +26,6 @@ export class AppComponent {
         { id: '2', name: 'Dexter', age: 22 },
       ])
     );
-
     console.log(this.users$);
   }
 
